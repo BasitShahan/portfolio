@@ -49,7 +49,7 @@ const Projects = () => {
         <ProjectsCard
           title="frontend"
           github="https://github.com/BasitShahan/intell-ai-scientist"
-     
+           link="https://intell-ai-scientist-xb9u.vercel.app/"
           des="Discover our frontend projects, each showcasing modern web development skills. From dynamic React apps to stunning UI clones of platforms like Facebook and YouTube, these projects highlight expertise in HTML, CSS, JavaScript, and more. Experience intuitive, responsive, and visually appealing user interfaces that bring ideas to life.          "
           src={projectTfourteen}
         />
