@@ -10,12 +10,12 @@ import { navLinksdata } from '../../constants';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div className='w-16 h-16 overflow-hidden  rounded-full'>
-        <img className='w-auto h-full object-cover' src={basitportrait} alt="logo" />
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor  flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+      <div  className='md:mx-8 text-2xl'>
+        <h1 className='lg:text-3xl text-lg '>Abdul   <span className='text-designColor  capitalize'>Basit</span> </h1>
       </div>
       <div>
-        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
+        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-8">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"

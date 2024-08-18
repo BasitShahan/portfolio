@@ -13,7 +13,7 @@ export default function Testimonial() {
         <div className="flex justify-center items-center text-center">
           <Title des="Certificates" />
         </div>
-        <div className=" w-full h-[80%] overflow-hidden rounded-lg md:grid md:grid-cols-2 grid grid-cols-1 ">
+        <div className=" w-full h-[80%] overflow-hidden rounded-lg md:grid md:grid-cols-2 grid grid-cols-1 gap-5 ">
           <div>
             <img
               className="mx-auto rounded-xl w-10/12 min-h-full h-auto object-cover hover:scale-110 duration-300 cursor-pointer"

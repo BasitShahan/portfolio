@@ -55,6 +55,7 @@ const Projects = () => {
         />
         <ProjectsCard
           title="frontend"
+          link="https://intelliwriter.io/"
            github="https://github.com/BasitShahan/intelli-writer-ai"
           des="Discover our frontend projects, each showcasing modern web development skills. From dynamic React apps to stunning UI clones of platforms like Facebook and YouTube, these projects highlight expertise in HTML, CSS, JavaScript, and more. Experience intuitive, responsive, and visually appealing user interfaces that bring ideas to life. "
           src={projectTfifteen}
@@ -91,12 +92,7 @@ const Projects = () => {
           des="Quiz App, meticulously crafted with HTML, CSS, and Bootstrap. Immerse yourself in a visually stunning and user-friendly interface as you explore the latest timepieces and horological wonders. With its responsive design and seamless navigation, the Watch Website provides an exceptional browsing experience for enthusiasts and collectors alike. Uncover the artistry of watchmaking through this captivating website"
           src={projectTen}
         />
-        <ProjectsCard
-          title="Chatting App"
-          github="https://github.com/BasitShahan/MernChatApp"
-          des="Chat APP, meticulously crafted with HTML, CSS, and Bootstrap. Immerse yourself in a visually stunning and user-friendly interface as you explore the latest timepieces and horological wonders. With its responsive design and seamless navigation, the Watch Website provides an exceptional browsing experience for enthusiasts and collectors alike. Uncover the artistry of watchmaking through this captivating website"
-          src={projectEleven}
-        />
+        
       </div>
     </section>
   );
