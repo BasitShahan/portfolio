@@ -29,11 +29,11 @@ const ImagePopup = ({ imageUrl }) => {
         ReactDOM.createPortal(
           <div className="fixed  inset-0 bg-black bg-opacity-50 flex  items-center justify-center z-50">
             <div className=" p-4 flex justify-center  w-full rounded shadow-lg relative ">
-              <div className=" w-11/12 md:w-9/12 flex justify-center items-center ">
+              <div className="   w-11/12 md:w-9/12 flex justify-center items-center ">
                 <img
                   src={imageUrl}
                   alt="Popup"
-                  className=" w-auto  h-auto  max-h-[95vh]"
+                  className=" w-auto  max-h-screen"
                 />
               </div>
               <div className=" h-full mx-3">
