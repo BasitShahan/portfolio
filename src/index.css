@@ -21,6 +21,46 @@
 }
 }
 
+
+
+.scroll-container {
+    width: 300px;
+    height: 200px; /* Set a specific height to see the scrollbar */
+    overflow-y: auto;
+    background-color: #171717;
+    padding: 10px;
+    margin: 20px;
+}
+
+.stroke-text {
+    -webkit-text-stroke: 0.5px white; /* White stroke */
+    /* color: transparent; Make the text color transparent */
+}
+
+.content {
+    height: 400px; /* Ensure the content height is greater than the container */
+    background-color: #280253;
+    padding: 10px;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+    border: 3px solid #171717;
+}
+
+
+
+
 .active {
     color: white;
 }

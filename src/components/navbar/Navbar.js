@@ -11,7 +11,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor  flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div  className='md:mx-8 text-2xl'>
+      <div  className='md:mx-28 text-2xl'>
         <h1 className='lg:text-3xl text-lg '>Abdul   <span className='text-designColor  capitalize'>Basit</span> </h1>
       </div>
       <div>

@@ -74,7 +74,8 @@ const Projects = () => {
           des="Watch Website, meticulously crafted with HTML, CSS, and Bootstrap. Immerse yourself in a visually stunning and user-friendly interface as you explore the latest timepieces and horological wonders. With its responsive design and seamless navigation, the Watch Website provides an exceptional browsing experience for enthusiasts and collectors alike. Uncover the artistry of watchmaking through this captivating website"
           src={projectTwo}
         />
-        <ProjectsCard
+        
+        {/* <ProjectsCard
           title="Crud With Filteration"
           github="https://github.com/BasitShahan/redux_crud"
           des="MERN CRUD app, where all your data management needs are seamlessly addressed. Built with MongoDB, Express.js, React, and Node.js, this app enables you to effortlessly perform Create, Read, Update, and Delete operations. Explore the convenience of managing your data with ease and efficiency, making it an essential tool for your application development journey"
@@ -91,7 +92,7 @@ const Projects = () => {
           github="https://github.com/BasitShahan/Quiz_App"
           des="Quiz App, meticulously crafted with HTML, CSS, and Bootstrap. Immerse yourself in a visually stunning and user-friendly interface as you explore the latest timepieces and horological wonders. With its responsive design and seamless navigation, the Watch Website provides an exceptional browsing experience for enthusiasts and collectors alike. Uncover the artistry of watchmaking through this captivating website"
           src={projectTen}
-        />
+        /> */}
         
       </div>
     </section>
