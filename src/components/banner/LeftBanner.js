@@ -46,7 +46,7 @@ const LeftBanner = () => {
           </div>
 
           <div className="mx-auto w-[82%] md:mx-0 md:w-full">
-            <a href="/Abdul-Basit.pdf" download className=" bannerIcon w-full">
+            <a href="/Abdul_Basit.pdf" download className=" bannerIcon w-full">
               Download Cv
             </a>
           </div>
