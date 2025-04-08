@@ -69,12 +69,19 @@ const RightBanner = () => {
       <div className="absolute bottom-0 w-[500px] h-[500px]  bg-gradient-to-r from-[#1e2024] to-[#202327]  shadow-shadowOne flex justify-center items-center"></div>
  
       {/*  */}
-      <div className='fixed right-20 bottom-20'>
-        <a target='_blank' className='z-[200px]' href='https://wa.me/923143527958'>
-        <FaWhatsapp size={60} color='green'/>
-        </a>
+      <div className='fixed right-4 bottom-10 z-50'>
+  <a 
+    target='_blank' 
+    rel='noopener noreferrer' 
+    href='https://wa.me/923143527958'>
+    <FaWhatsapp 
+      size={67} 
+      color='green' 
+      className='hover:scale-110 transition-transform duration-200' 
+    />
+  </a>
+</div>
 
-      </div>
 
     </div>
   );
